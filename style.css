@@ -1,0 +1,13 @@
+:root { --fg:#111; --muted:#555; }
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { font-family: system-ui, Arial, sans-serif; color: var(--fg); line-height: 1.5; }
+
+#bg { position: fixed; inset: 0; z-index: -1; display:block; }
+
+.container { max-width: 880px; margin: 48px auto; padding: 0 20px; }
+header h1 { margin: 0 0 6px; font-size: 2.2rem; }
+header p { margin: 0 0 12px; color: var(--muted); }
+nav a { margin-right: 16px; text-decoration: none; color: #0a66c2; }
+h2 { margin-top: 36px; }
+.projects { padding-left: 18px; }
